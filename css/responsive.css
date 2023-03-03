@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 150px;
+  widht: 150px;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+/*# sourceMappingURL=responsive.css.map */

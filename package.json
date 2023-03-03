@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  },
+  
+  "scripts" : {
+    "node-sass": "node-sass --watch --output-style compressed -o css/ scss --recursive",
+    "sass": "node-sass --watch --output-style compressed -o css/ src --recursive",
+    "normal-sass": "sass --watch scss/responsive.scss:css/responsive.css"
+}
+}

@@ -1,0 +1,40 @@
+$iframeWidth: 50%;
+$iframeheight: 2%;
+
+// $phone: 360px;
+// $tablet: 768px;
+// $desktop: 1366px;
+// $largeDesktop: 1920px;
+
+$breakpoints: (
+  "tablet":  360px,
+  "desktop": 768px,
+  "largeDesktop": 1366px) !default;
+
+//@mixin yolo{
+ // background-color: red;
+ // font-size: 20px;
+//}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 150px;
+  widht: 150px;
+}
+
+body{
+  color: white;
+  background-color: black;
+
+  @media (min-width: map-get($breakpoints, "tablet")){
+  }
+  @media (min-width: map-get($breakpoints, "desktop")){
+  }
+  @media (min-width: map-get($breakpoints, "largeDesktop")){
+  }
+}
+
