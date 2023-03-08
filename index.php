@@ -6,12 +6,12 @@ $hotels = array(
     array(
         "name" => "NH Wien Belvedere",
         "desc" => "Schlichtes Hotel mit Lobbybar, Fitnessraum, Sauna und kostenlosem WLAN.",
-        "photo" => "https://lh3.googleusercontent.com/gps-proxy/ALm4wwnWppt4v_EdCcAiObhG6bcC5sRyq6x6ekzB9lFiqT-qzvJmwaKcyNxXJdsjO0zi2uXbyRW4K5Pdb5GAckQbrpTxm5xc7iz_cXpiqbV1L-Wzgkq612poayRctRRf1Cca9WLL2ieEeSLsssheVZYk0hke3b30QbsFT0BfD-6P6tCnINgu6OuzRsYY=w408-h273-k-no"
+        "photo" => "https://lh3.googleusercontent.com/gps-proxy/ALm4wwkPd_dWjKXKlb6eH0QwQvEdzYGRh1-dz0Q0li05q47VC9H8yY8PAQxf6vN3EHE6aCldUCIghCzyEt4QmeAKPmon8Vbc0hJpLdasgrKg0KjlthxgB-OdGWUnr8c-a1XOrQDmh1UxUXp7DDDxTRPxphMsbZIN3AZMPD6pfA5u9UPYKIFWetKKykah=w408-h273-k-no"
     ),
     array(
         "name" => "Hotel Johann Strauss",
         "desc" => "Gemütliche Zimmer und Suiten in einem prächtigen Jugendstilgebäude mit Bar und kostenlosem Frühstücksbuffet.",
-        "photo" => "https://lh3.googleusercontent.com/gps-proxy/ALm4wwnYsGtFq7XAd1tahXx-GxcNlnwEhimGEqDMTrzH4pk94cvXHHcShaeb9JViPARW0PD0DgSYPg-QMsiOFB-Ept0vldjZgO0HF-wxZksLmmE-nfmcfTrj78JneyHe3VW4jFpZvtAh3N_etMYDfyvPIdoqav2QnGkmdS5oq_vD_YF0mNxBKaFBpiHjWA=w408-h612-k-no"
+        "photo" => "https://lh5.googleusercontent.com/p/AF1QipNvO07qB3Zk73cOBc1lsMzU5kIKKYNwxPRNFsi6=w408-h306-k-no"
     ),
     array(
         "name" => "Hotel Eurostars Embassy",
