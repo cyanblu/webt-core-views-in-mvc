@@ -18,12 +18,13 @@ $breakpoints: (
 
 .flex-container{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 img {
-  height: 150px;
-  widht: 150px;
+  object-fit: cover;
+  width: auto;
+  height: 15vh;
 }
 
 body{
@@ -31,10 +32,37 @@ body{
   background-color: black;
 
   @media (min-width: map-get($breakpoints, "tablet")){
+    .flex-container{
+      flex-direction: column;
+    }
+    img {
+      width: auto;
+      height: 15vh;
+    }
   }
   @media (min-width: map-get($breakpoints, "desktop")){
+    .flex-container{
+      flex-direction: row;
+    }
+    img {
+      width: auto;
+      height: 22vh;
+    }
+    h2{
+      margin-left: 30px;
+    }
+    p{
+      margin-left: 30px;
+    }
   }
   @media (min-width: map-get($breakpoints, "largeDesktop")){
+    .flex-container{
+      flex-direction: row;
+    }
+    img {
+      width: auto;
+      height: 15vh;
+    }
   }
 }
 
