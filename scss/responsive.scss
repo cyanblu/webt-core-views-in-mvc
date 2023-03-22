@@ -23,7 +23,6 @@ $breakpoints: (
 
 img {
   object-fit: cover;
-  width: auto;
   height: 15vh;
 }
 
@@ -36,8 +35,11 @@ body{
       flex-direction: column;
     }
     img {
-      width: auto;
+      width: 50%;
       height: 15vh;
+    }
+    p {
+      width: 50%;
     }
   }
   @media (min-width: map-get($breakpoints, "desktop")){
@@ -45,7 +47,7 @@ body{
       flex-direction: row;
     }
     img {
-      width: auto;
+      width: 25vh;
       height: 22vh;
     }
     h2{
@@ -53,6 +55,7 @@ body{
     }
     p{
       margin-left: 30px;
+      width: 100%;
     }
   }
   @media (min-width: map-get($breakpoints, "largeDesktop")){
@@ -60,8 +63,15 @@ body{
       flex-direction: row;
     }
     img {
-      width: auto;
-      height: 15vh;
+      width: 15%;
+      height: 30vh;
+    }
+    h2{
+      margin-left: 30px;
+    }
+    p{
+      margin-left: 30px;
+      width: 100%;
     }
   }
 }

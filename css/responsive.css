@@ -5,7 +5,6 @@
 
 img {
   object-fit: cover;
-  width: auto;
   height: 15vh;
 }
 
@@ -18,8 +17,11 @@ body {
     flex-direction: column;
   }
   body img {
-    width: auto;
+    width: 50%;
     height: 15vh;
+  }
+  body p {
+    width: 50%;
   }
 }
 @media (min-width: 768px) {
@@ -27,7 +29,7 @@ body {
     flex-direction: row;
   }
   body img {
-    width: auto;
+    width: 25vh;
     height: 22vh;
   }
   body h2 {
@@ -35,6 +37,7 @@ body {
   }
   body p {
     margin-left: 30px;
+    width: 100%;
   }
 }
 @media (min-width: 1366px) {
@@ -42,8 +45,15 @@ body {
     flex-direction: row;
   }
   body img {
-    width: auto;
-    height: 15vh;
+    width: 15%;
+    height: 30vh;
+  }
+  body h2 {
+    margin-left: 30px;
+  }
+  body p {
+    margin-left: 30px;
+    width: 100%;
   }
 }
 

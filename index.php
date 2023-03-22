@@ -6,7 +6,7 @@ $hotels = array(
     array(
         "name" => "NH Wien Belvedere",
         "desc" => "Schlichtes Hotel mit Lobbybar, Fitnessraum, Sauna und kostenlosem WLAN.",
-        "photo" => "https://lh3.googleusercontent.com/gps-proxy/ALm4wwkFtYwBOvkCUDdWRq0pFHtrzrmcxgZzaRzRhSq-lFPb9BKQB5ULKkoVSmvM4RUfUKGKbW_CKz8z4W0X1LghE5PVAWqdkEmUswP8OPq8Q6ZFupndYH_HkeG7P-56rTh5GoI8IWO3Lgh0Iyw5HVXvFOVWihalIDjNSgTQp8yBYkQ6SOgc6RGcvrKB=w408-h273-k-no"
+        "photo" => "https://lh5.googleusercontent.com/p/AF1QipNc0HH8Rwpjm0vHTsJRryl0vnr4YRfOUYqHELrX=w408-h508-k-no"
     ),
     array(
         "name" => "Hotel Johann Strauss",
