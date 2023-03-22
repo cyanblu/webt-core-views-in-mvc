@@ -33,6 +33,7 @@ body{
   @media (min-width: map-get($breakpoints, "tablet")){
     .flex-container{
       flex-direction: column;
+      justify-content: center;
     }
     img {
       width: 50%;
@@ -45,6 +46,8 @@ body{
   @media (min-width: map-get($breakpoints, "desktop")){
     .flex-container{
       flex-direction: row;
+      justify-content: left;
+
     }
     img {
       width: 25vh;
@@ -61,6 +64,7 @@ body{
   @media (min-width: map-get($breakpoints, "largeDesktop")){
     .flex-container{
       flex-direction: row;
+      justify-content: left;
     }
     img {
       width: 15%;

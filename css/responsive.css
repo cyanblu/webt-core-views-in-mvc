@@ -15,6 +15,7 @@ body {
 @media (min-width: 360px) {
   body .flex-container {
     flex-direction: column;
+    justify-content: center;
   }
   body img {
     width: 50%;
@@ -27,6 +28,7 @@ body {
 @media (min-width: 768px) {
   body .flex-container {
     flex-direction: row;
+    justify-content: left;
   }
   body img {
     width: 25vh;
@@ -43,6 +45,7 @@ body {
 @media (min-width: 1366px) {
   body .flex-container {
     flex-direction: row;
+    justify-content: left;
   }
   body img {
     width: 15%;
